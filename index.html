@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/design.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Arthur</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="bkg w3-display-container header-image-shape" id="home">
+        <div class="w3-row" style="padding: 10px 12px 0px 12px;">
+            <div class="w3-col l10 m9 s6 w3-left mobile" style="font-size: 13px;">
+                <a href="tel:+91 9650261425" target="_blank" style="margin-right: 25px;margin-left: 20px;"><i class="fa fa-phone" style="margin-right: 6px;color: #1f12fd;"></i>9650261425</a>
+                <a href="mailto:hello@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size: 18px;margin-right: 6px;color: #1f12fd;"></i> hello@gmail.com</a>
+            </div>
+            <div class="w3-col l2 m3 s6 mobile" style="font-size: 13px;">
+                <a href="signin.html" target="_blank" style="margin-right: 25px;"><i class="fa fa-paper-plane" style="margin-right: 6px;color: #1f12fd;"></i>Try Now</a>
+                <a href="#" target="_blank"><i class="fa fa-search" style="font-size: 18px;margin-right: 6px;color: #1f12fd;"></i> Search</a>
+            </div>
+        </div>
+
+        <hr style="width: 95%;margin-left: auto;margin-right: auto;">
+        <div class="w3-bar w3-row" style="padding-left: 20px;margin-top: -12px;">
+            <a href="#" class="w3-bar-item" target="_self" ><img src="images/logo.gif" alt="not supported" width="70%" class="logo_imgs"></a>
+            <button class="w3-bar-item w3-padding-large  w3-right login_btn w3-animate-right" onclick="document.getElementById('id01').style.display='block'">Login or Register</button>
+        </div>
+        <div class="w3-display-container w3-row-padding" style="padding-bottom: 80px;">
+            <div class="w3-half " style="padding:20px;">
+                <h1 class="header_text_first w3-animate-left">Build Your Second Brain For Everything</h1>
+                <h5 class="header_text_second w3-animate-bottom">One smart tool for all your meetings, podcasts, lectures (think everything audio) in real-time
+                    (no composing required except if you need to)</h5>
+                <button class="header_btn1" onclick="document.getElementById('id01').style.display='block'">Get Started</button>
+                 <a href="signin.html"><button class="header_btn2">Join Waitlist</button></a> 
+            </div>
+            <div class="w3-half w3-animate-top" style="padding-top: 65px;">
+                <img src="images/header-shape.png" alt="not supported" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <!--Login form-->
+    <div class="w3-container w3-modal" id="id01" style="padding-top: 20%;">
+        <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:395px;padding: 20px;border-radius:10px;border:1px solid #f4f8ff;overflow: hidden;">
+            <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-large w3-red w3-hover-blue w3-display-topright" title="Close Modal" style="border-radius: 0px 10px 0px 10px;"><i class="fas fa-times w3-hover-spin"></i></span>
+            <table>
+                <form action="#" method="post">
+                    <tr>
+                        <td><h5 class="login_form_h5">LOGIN</h5></td>
+                    </tr>
+                    <tr class="w3-row">
+                        <td class="w3-col l12 m12 s12"><input type="text" placeholder="Username" /required class="input input1"></td>
+                    </tr>
+                    <tr class="w3-row">
+                        <td class="w3-col l6 m6 s6"><input type="text" placeholder="Password" /required class="input"></td>
+                        <td class="w3-col l6 m6 s6"><input type="text" placeholder="OTP" /required class="input"></td>
+                    </tr>
+                    <tr>
+                        <td><button class="Form_btn">Submit</button></td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </div>
+
+    <!--What Technologies we are using-->
+    <div class="w3-container" style="padding: 70px 10px;" id="tech">
+        <h1 class="tech_text w3-center">What Technologies We Are Using<br> At Arthur</h1>
+        <div class="w3-row-padding">
+            <div class=" w3-col l3 m3 s12 ">
+                <div class="w3-card 4 card">
+                    <p ><img src="images/ml.png" alt="not supported">
+                    <strong style="margin-left: 16px;">ML Technology </strong></p>
+                    <p style="font-size: 14px;color: grey;">ML provides systems that improve from experience without being explicitly programmed.</p>
+                    <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" class="learn_more_main" style="font-size: 14px;color: #1f12fd;font-weight: 900;">Learn More <i class="fas fa-angle-right learn_more"></i></a>
+                </div>
+            </div>
+            <div class=" w3-col l3 m3 s12 ">
+                <div class="w3-card 4 card">
+                    <p ><img src="images/adi.png" alt="not supported">
+                    <strong style="margin-left: 16px;">ADI Technology </strong></p>
+                    <p style="font-size: 14px;color: grey;">ADI emerged as one of the many applications of AI in art and design, specific to the web design world.</p>
+                    <a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_blank" class="learn_more_main" style="font-size: 14px;color: #1f12fd;font-weight: 900;">Learn More <i class="fas fa-angle-right learn_more"></i></a>
+                </div>
+            </div>
+            <div class=" w3-col l3 m3 s12 ">
+                <div class="w3-card 4 card">
+                    <p ><img src="images/data.png" alt="not supported">
+                        <strong style="margin-left: 16px;">Data Technology</strong></p>
+                        <p style="font-size: 14px;color: grey;">DataTech is a market sector that develops products that use big data analysis, AI and ML algorithms.</p>
+                        <a href="https://en.wikipedia.org/wiki/Data_technology" target="_blank" class="learn_more_main" style="font-size: 14px;color: #1f12fd;font-weight: 900;">Learn More <i class="fas fa-angle-right learn_more"></i></a>
+                </div>
+            </div>
+            <div class=" w3-col l3 m3 s12 ">
+                <div class="w3-card 4 card">
+                    <p ><img src="images/AI.png" alt="not supported">
+                        <strong style="margin-left: 16px;">AI Technology </strong></p>
+                        <p style="font-size: 14px;color: grey;">AI is the simulation of human intelligence processes by machines, especially computer systems.</p>
+                        <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" class="learn_more_main" style="font-size: 14px;color: #1f12fd;font-weight: 900;">Learn More <i class="fas fa-angle-right learn_more"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About US-->
+    <div class="w3-container" style="padding: 70px 10px;background: #f4f8ff;" id="aboutus">
+        <div class="w3-col l6 m6 s12" style="overflow: hidden;">
+            <img src="images/aboutus.png" alt="not supported" height="50%">
+        </div>
+        <div class="w3-col l6 m6 s12">
+            <h5 style="color: #1f12fd;font-weight: 700;">About us</h5>
+            <h1 style="font-weight: 800;">Mission Is To Bring The Power Of Automation To Every Business</h1>
+            <h5 class="h5_class" >We are building a second brain for everything audio. 1-click AI note-taking and summarization for everything audio, meetings, videos, lectures or podcasts. No more worries about meetings or savings notes we are here for you.Now a question arises why should people choose Arthur</h5>
+            <h6 class="Aboutus_h6"> <i class="fa fa-arrow-circle-right" style="color: #1f12fd; margin-right: 10px;margin-left: 10px;"></i>Reducing time to capture notes, quotes, responses, answers, all in real-time.</h6>
+            <h6 class="Aboutus_h6"> <i class="fa fa-arrow-circle-right" style="color: #1f12fd; margin-right: 10px;margin-left: 10px;"></i>Helping you focus more on the content.</h6>
+            <h6 class="Aboutus_h6"> <i class="fa fa-arrow-circle-right" style="color: #1f12fd; margin-right: 10px;margin-left: 10px;"></i>Recalling easily through automated summary, to get the same information.</h6>
+            <h6 class="Aboutus_h6"> <i class="fa fa-arrow-circle-right" style="color: #1f12fd; margin-right: 10px;margin-left: 10px;"></i>Taking notes when you are multitasking or even while presenting in 1-click.</h6>
+            <h5 class="h5_class">If you are someone who consumes a lot of audio information (meetings, interviews, videos, lectures etc.) and wants to takes notes from it for easy reference later (want to build your second brain) then Arthur is the place for you.
+                Think Arthur, whenever you want to jump onto a new meeting, video or podcasts and take blazingly fast 1-click notes and get summaries without typing.</h5>
+                <a href="signin.html"><button class="header_btn1">Try Now <i class="fas fa-angle-right learn_more"></i></button></a>
+        </div>
+    </div>
+    <!--Crafted for professional-->
+    <div class="w3-container" style="padding: 70px 10px;" id="craft">
+        <h1 class="tech_text w3-center">Crafted for Professionals</h1>
+        <h5 class="h5_class2">Our Purpose Is To Deliver Excellence In Service And Execution</h5>
+        
+        <div class="w3-row-padding" style="padding: 10px 10px">
+            <div class=" w3-col l4 m4 s12 " style="padding: 15px 10px;">
+                <div class="w3-card 4 card1">
+                    <img src="images/product.png" alt="not supported" class="crafted_image">
+                    <p class="crafted_text">Product Managers</p>
+                    <p class="crafted_text2">Be present in all the meetings and never forget the important things in one click with Arthurs </p>
+                    <a href="#" target="_blank" class="learn_more_main learn_more_main2">Discover <i class="fas fa-angle-right learn_more"></i></a>
+                </div>
+            </div>
+            <div class=" w3-col l4 m4 s12 " style="padding: 15px 10px;">
+                <div class="w3-card 4 card1">
+                    <img src="images/leadership.png" alt="not supported" class="crafted_image">
+                    <p class="crafted_text">Leadership/VC</p>
+                    <p class="crafted_text2">Choose the right piece of information and clear through the noise in one click with Arthurs </p>
+                    <a href="#" target="_blank" class="learn_more_main learn_more_main2">Discover <i class="fas fa-angle-right learn_more"></i></a>
+                </div>
+            </div>
+            <div class=" w3-col l4 m4 s12 " style="padding: 15px 10px;">
+                <div class="w3-card 4 card1">
+                    <img src="images/engeneering.png" alt="not supported" class="crafted_image">
+                    <p class="crafted_text">Engineering Teams</p>
+                    <p class="crafted_text2">Spend less time attending meetings, collating information and more time building</p>
+                    <a href="#" target="_blank" class="learn_more_main learn_more_main2">Discover <i class="fas fa-angle-right learn_more"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding" style="padding: 10px 10px">
+            <div class=" w3-col l4 m4 s12 " style="padding: 15px 10px;">
+                <div class="w3-card 4 card1">
+                    <img src="images/sales.png" alt="not supported" class="crafted_image">
+                    <p class="crafted_text">Sales</p>
+                    <p class="crafted_text2">Transcribe and summarize sales calls allowing to transfer knowledge seamlessly </p>
+                    <a href="#" target="_blank" class="learn_more_main learn_more_main2">Discover <i class="fas fa-angle-right learn_more"></i></a>
+                </div>
+            </div>
+            <div class=" w3-col l4 m4 s12 " style="padding: 15px 9px;">
+                <div class="w3-card 4 card1">
+                    <img src="images/interview.png" alt="not supported" class="crafted_image">
+                    <p class="crafted_text">HR</p>
+                    <p class="crafted_text2">Transcribe and summarize hiring calls, meetings allowing you to speed up your processes</p>
+                    <a href="#" target="_blank" class="learn_more_main learn_more_main2">Discover <i class="fas fa-angle-right learn_more"></i></a>
+                </div>
+            </div>
+            <div class=" w3-col l4 m4 s12 " style="padding: 15px 10px;">
+                <div class="w3-card 4 card1">
+                    <img src="images/layout.png" alt="not supported" class="crafted_image">
+                    <p class="crafted_text">UX Researchers</p>
+                    <p class="crafted_text2">Focus on your user and let Arthur take notes and help unearth insights in one click</p>
+                    <a href="#" target="_blank" class="learn_more_main learn_more_main2">Discover <i class="fas fa-angle-right learn_more"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Free trial-->
+    <div class="w3-display-container bkg2 w3-center" style="padding: 60px 15px;">
+        <h1 class="free_text1 ">We Are Offering 15 Days Free Trial</h1>
+        <h5 class="free_text2 ">Our purpose is to deliver excellence in service and execution. We are making human life easier by providing best user experiance on liable prices.</h5>
+        <a href="signin.html" > <button class="trial_btn">Try Free Trial Now <i class="fas fa-angle-right learn_more1"></i></button></a>
+    </div>
+    <!--Footer-->
+    <footer class="w3-container bkg3" style="padding-top: 80px; padding-left: 10px;" id="footer">
+        <div class="w3-col l3 m3 s12" id="footer1" >
+            <img src="images/logo.gif" alt="not_supported">
+            <p style="padding:10px 0px 20px 0px;color: grey;">Arthur Is an Leading AI Based Automation Company Our Software Making Peoples Life Easy. Just One Click And Boom Your Are Done</p>
+            <span>
+                <a href="#"><i class="fab fa-facebook-f" ></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </span>
+        </div>
+        <div class="w3-col l3 m3 s12">
+            <h4>Company</h4>
+            <ul type="square" color="#1f12fd">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#tech">Tech. Using</a></li>
+                <li><a href="#craft">Crafted For </a></li>
+                <li><a href="legal.html">Legal Notice</a></li>
+            </ul>
+        </div>
+        <div class="w3-col l3 m3 s12">
+            <h4>Learning</h4>
+            <ul type="square">
+                <li><a href="#">Artificial Intelligence</a></li>
+                <li><a href="#">Machine Learning</a></li>
+                <li><a href="#">Automation</a></li>
+            </ul>
+        </div>
+        <div class="w3-col l3 m3 s12" id="contact">
+            <h4>Contact Us</h4>
+            <h5>Phone :</h5>
+            <a href="tel:+91 9650261425">+91 9650261425</a>
+            <h5>Email :</h5>
+            <a href="mailto:hello@gmail.com">hello@gmail.com</a>
+            <h5>Address :</h5>
+            <a href="https://bit.ly/32ihPUT">C-340
+                FF Brij Vihar
+                Ghaziabad - 201011</a>
+
+        </div>
+        <div class="w3-col l12 m12 s12">
+            <hr>
+            <p class="w3-center" style="font-weight: 900px;">Copyright ©2020 <a href="usearthur.com" style="color: #1f12fd;">Arthur.</a></p>
+        </div>
+    </footer>
+</body>
+</html>
