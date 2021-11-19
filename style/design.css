@@ -283,13 +283,67 @@ body, html {
     border-radius: 0px 12px 0px 12px;
     font-weight: 700;
 }
-
-@media (max-width:480) {
+.mobile{
+    display: none;
+    visibility: hidden;
+}
+.aboutus_img{
+    height: 50%;
+}
+@media (max-width:480px){
     body{
         overflow-x: hidden;
     }
     .mobile{
+        display: block;
+        visibility: visible;
+    }
+    .bigger{
         display: none;
         visibility: hidden;
+    }
+    .logo_imgs{
+        margin-left: -16px;
+    }
+    .login_btn{
+        margin-top: -50px;
+    }
+    .header_text_first{
+        font-size: 50px;
+        line-height: 40px;
+        font-weight: 700;
+        width: 100%;
+    }
+    .header_btn1{
+        width: 48%;
+    }
+    .header_btn2{
+        width: 45%;
+        margin-left: 2px;
+    }
+    .card{
+        margin-bottom: 20px;
+        margin-left: 2%;
+    }
+    .aboutus_img{
+        width:50%;
+        display: block;
+        margin-left: 30%;
+        max-width: auto;
+    }
+    .card1{
+        margin-left: 2%;
+    }
+    .free_text2{
+        width: 98%;
+    }
+    #footer h4{
+        margin-left: -2px;
+    }
+    #contact h5{
+        margin-left: 20px;
+    }
+    #contact a{
+        margin-left: 25px;
     }
 }

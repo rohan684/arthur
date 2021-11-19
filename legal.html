@@ -24,6 +24,10 @@
           font-weight: 900; 
           font-size: 75px;
         }
+        .legal{
+            padding:80px 20%;
+            padding-bottom: 100px;
+        }
         @media (max-width: 480px){
           .xx1{
             width: 100%;
@@ -35,6 +39,9 @@
             line-height: 55px;
             font-family: calibri;
           }
+          .legal{
+            padding: 90px 20px;
+          }
         }
       </style>
 </head>
@@ -42,11 +49,22 @@
     <!--Navigation-->
     <div class="w3-display-container" id="home" style="background-color: #f4f8ff;">
         <div class="w3-row" style="padding: 10px 12px 0px 12px;">
-            <div class="w3-col l10 m9 s6 w3-left" style="font-size: 13px;">
+            <div class="w3-col l10 m9 s6 w3-left bigger" style="font-size: 13px;">
                 <a href="tel:+91 9650261425" target="_blank" style="margin-right: 25px;margin-left: 20px;"><i class="fa fa-phone" style="margin-right: 6px;color: #1f12fd;"></i> 9650261425</a>
                 <a href="mailto:hello@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size: 18px;margin-right: 6px;color: #1f12fd;"></i> hello@gmail.com</a>
             </div>
-            <div class="w3-col l2 m3 s6 " style="font-size: 13px;">
+            <div class="w3-col l2 m3 s6 bigger" style="font-size: 13px;">
+                <a href="signin.html" target="_blank" style="margin-right: 25px;"><i class="fa fa-paper-plane" style="margin-right: 6px;color: #1f12fd;"></i>Try Now</a>
+                <a href="#" target="_blank"><i class="fa fa-search" style="font-size: 18px;margin-right: 6px;color: #1f12fd;"></i> Search</a>
+            </div>
+        </div>
+        <!--For mobile-->
+        <div class="w3-row" style="padding: 10px 12px 0px 12px;">
+            <div class="w3-col l10 m9 s6 w3-left mobile" style="font-size: 13px;">
+                <a href="tel:+91 9650261425" target="_blank" style="margin-right: 25px;margin-left: 20px;"><i class="fa fa-phone" style="margin-right: 6px;color: #1f12fd;"></i>Phone</a>
+                <a href="mailto:hello@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size: 18px;margin-right: 6px;color: #1f12fd;"></i>Mail</a>
+            </div>
+            <div class="w3-col l2 m3 s6 mobile" style="font-size: 13px;">
                 <a href="signin.html" target="_blank" style="margin-right: 25px;"><i class="fa fa-paper-plane" style="margin-right: 6px;color: #1f12fd;"></i>Try Now</a>
                 <a href="#" target="_blank"><i class="fa fa-search" style="font-size: 18px;margin-right: 6px;color: #1f12fd;"></i> Search</a>
             </div>
@@ -57,8 +75,9 @@
             <button class="w3-bar-item w3-padding-large  w3-right login_btn w3-animate-right" onclick="document.getElementById('id01').style.display='block'">Login or Register</button>
         </div>
     </div>
+    
     <!--Legal notice-->
-    <div class="w3-container display" style="padding:80px 20%;padding-bottom: 100px;">
+    <div class="w3-container display legal" >
         <div class="display xx1 w3-left">
             <h1 class="cc1">Legal Notice</h1>
             <h3>Arthur Tech Solutions Private Limited</h3>
@@ -108,7 +127,7 @@
             <span>
                 <a href="#"><i class="fab fa-facebook-f" ></i></a>
                 <a href="#"><i class="fab fa-instagram-square"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/company/usearthur"><i class="fab fa-linkedin"></i></a>
                 <a href="#"><i class="fab fa-twitter-square"></i></a>
             </span>
         </div>

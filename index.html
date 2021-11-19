@@ -13,10 +13,21 @@
 <body>
     <!-- Navigation Bar -->
     <div class="bkg w3-display-container header-image-shape" id="home">
-        <div class="w3-row" style="padding: 10px 12px 0px 12px;">
-            <div class="w3-col l10 m9 s6 w3-left mobile" style="font-size: 13px;">
+        <div class="w3-row" style="padding: 10px 12px 0px 12px;" class="bigger">
+            <div class="w3-col l10 m9 s6 w3-left bigger" style="font-size: 13px;">
                 <a href="tel:+91 9650261425" target="_blank" style="margin-right: 25px;margin-left: 20px;"><i class="fa fa-phone" style="margin-right: 6px;color: #1f12fd;"></i>9650261425</a>
                 <a href="mailto:hello@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size: 18px;margin-right: 6px;color: #1f12fd;"></i> hello@gmail.com</a>
+            </div>
+            <div class="w3-col l2 m3 s6 bigger" style="font-size: 13px;">
+                <a href="signin.html" target="_blank" style="margin-right: 25px;"><i class="fa fa-paper-plane" style="margin-right: 6px;color: #1f12fd;"></i>Try Now</a>
+                <a href="#" target="_blank"><i class="fa fa-search" style="font-size: 18px;margin-right: 6px;color: #1f12fd;"></i> Search</a>
+            </div>
+        </div>
+        <!--For mobile-->
+        <div class="w3-row" style="padding: 10px 12px 0px 12px;">
+            <div class="w3-col l10 m9 s6 w3-left mobile" style="font-size: 13px;">
+                <a href="tel:+91 9650261425" target="_blank" style="margin-right: 25px;margin-left: 20px;"><i class="fa fa-phone" style="margin-right: 6px;color: #1f12fd;"></i>Phone</a>
+                <a href="mailto:hello@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size: 18px;margin-right: 6px;color: #1f12fd;"></i>Mail</a>
             </div>
             <div class="w3-col l2 m3 s6 mobile" style="font-size: 13px;">
                 <a href="signin.html" target="_blank" style="margin-right: 25px;"><i class="fa fa-paper-plane" style="margin-right: 6px;color: #1f12fd;"></i>Try Now</a>
@@ -34,8 +45,11 @@
                 <h1 class="header_text_first w3-animate-left">Build Your Second Brain For Everything</h1>
                 <h5 class="header_text_second w3-animate-bottom">One smart tool for all your meetings, podcasts, lectures (think everything audio) in real-time
                     (no composing required except if you need to)</h5>
-                <button class="header_btn1" onclick="document.getElementById('id01').style.display='block'">Get Started</button>
-                 <a href="signin.html"><button class="header_btn2">Join Waitlist</button></a> 
+                    <div class="w3-bar">
+                        <button class="header_btn1" onclick="document.getElementById('id01').style.display='block'">Get Started</button>
+                        <a href="signin.html"><button class="header_btn2">Join Waitlist</button></a>
+                    </div>
+                     
             </div>
             <div class="w3-half w3-animate-top" style="padding-top: 65px;">
                 <img src="images/header-shape.png" alt="not supported" width="100%">
@@ -108,9 +122,9 @@
     <!--About US-->
     <div class="w3-container" style="padding: 70px 10px;background: #f4f8ff;" id="aboutus">
         <div class="w3-col l6 m6 s12" style="overflow: hidden;">
-            <img src="images/aboutus.png" alt="not supported" height="50%">
+            <img src="images/aboutus.png" alt="not supported" class="aboutus_img">
         </div>
-        <div class="w3-col l6 m6 s12">
+        <div class="w3-col l6 m6 s12" style="padding: 12px;">
             <h5 style="color: #1f12fd;font-weight: 700;">About us</h5>
             <h1 style="font-weight: 800;">Mission Is To Bring The Power Of Automation To Every Business</h1>
             <h5 class="h5_class" >We are building a second brain for everything audio. 1-click AI note-taking and summarization for everything audio, meetings, videos, lectures or podcasts. No more worries about meetings or savings notes we are here for you.Now a question arises why should people choose Arthur</h5>
@@ -192,12 +206,12 @@
     <!--Footer-->
     <footer class="w3-container bkg3" style="padding-top: 80px; padding-left: 10px;" id="footer">
         <div class="w3-col l3 m3 s12" id="footer1" >
-            <img src="images/logo.gif" alt="not_supported">
+            <img src="images/logo.gif" alt="not_supported" >
             <p style="padding:10px 0px 20px 0px;color: grey;">Arthur Is an Leading AI Based Automation Company Our Software Making Peoples Life Easy. Just One Click And Boom Your Are Done</p>
             <span>
                 <a href="#"><i class="fab fa-facebook-f" ></i></a>
                 <a href="#"><i class="fab fa-instagram-square"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/company/usearthur"><i class="fab fa-linkedin"></i></a>
                 <a href="#"><i class="fab fa-twitter-square"></i></a>
             </span>
         </div>
